@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC33FF5B207C8C0C00C80785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33FF5A207C8C0C00C80785 /* AppDelegate.swift */; };
+		EC33FF5D207C8C0C00C80785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33FF5C207C8C0C00C80785 /* ViewController.swift */; };
+		EC33FF60207C8C0C00C80785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC33FF5E207C8C0C00C80785 /* Main.storyboard */; };
+		EC33FF62207C8C0C00C80785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC33FF61207C8C0C00C80785 /* Assets.xcassets */; };
+		EC33FF65207C8C0C00C80785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC33FF63207C8C0C00C80785 /* LaunchScreen.storyboard */; };
+		EC33FF70207C8C0C00C80785 /* CassebriqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33FF6F207C8C0C00C80785 /* CassebriqueTests.swift */; };
+		EC33FF7B207C8C0C00C80785 /* CassebriqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33FF7A207C8C0C00C80785 /* CassebriqueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC33FF6C207C8C0C00C80785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC33FF4F207C8C0C00C80785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC33FF56207C8C0C00C80785;
+			remoteInfo = Cassebrique;
+		};
+		EC33FF77207C8C0C00C80785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC33FF4F207C8C0C00C80785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC33FF56207C8C0C00C80785;
+			remoteInfo = Cassebrique;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC33FF57207C8C0C00C80785 /* Cassebrique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassebrique.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33FF5A207C8C0C00C80785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC33FF5C207C8C0C00C80785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC33FF5F207C8C0C00C80785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC33FF61207C8C0C00C80785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC33FF64207C8C0C00C80785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC33FF66207C8C0C00C80785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33FF6B207C8C0C00C80785 /* CassebriqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassebriqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33FF6F207C8C0C00C80785 /* CassebriqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassebriqueTests.swift; sourceTree = "<group>"; };
+		EC33FF71207C8C0C00C80785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33FF76207C8C0C00C80785 /* CassebriqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassebriqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33FF7A207C8C0C00C80785 /* CassebriqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassebriqueUITests.swift; sourceTree = "<group>"; };
+		EC33FF7C207C8C0C00C80785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC33FF54207C8C0C00C80785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33FF68207C8C0C00C80785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33FF73207C8C0C00C80785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC33FF4E207C8C0C00C80785 = {
+			isa = PBXGroup;
+			children = (
+				EC33FF59207C8C0C00C80785 /* Cassebrique */,
+				EC33FF6E207C8C0C00C80785 /* CassebriqueTests */,
+				EC33FF79207C8C0C00C80785 /* CassebriqueUITests */,
+				EC33FF58207C8C0C00C80785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC33FF58207C8C0C00C80785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC33FF57207C8C0C00C80785 /* Cassebrique.app */,
+				EC33FF6B207C8C0C00C80785 /* CassebriqueTests.xctest */,
+				EC33FF76207C8C0C00C80785 /* CassebriqueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC33FF59207C8C0C00C80785 /* Cassebrique */ = {
+			isa = PBXGroup;
+			children = (
+				EC33FF5A207C8C0C00C80785 /* AppDelegate.swift */,
+				EC33FF5C207C8C0C00C80785 /* ViewController.swift */,
+				EC33FF5E207C8C0C00C80785 /* Main.storyboard */,
+				EC33FF61207C8C0C00C80785 /* Assets.xcassets */,
+				EC33FF63207C8C0C00C80785 /* LaunchScreen.storyboard */,
+				EC33FF66207C8C0C00C80785 /* Info.plist */,
+			);
+			path = Cassebrique;
+			sourceTree = "<group>";
+		};
+		EC33FF6E207C8C0C00C80785 /* CassebriqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC33FF6F207C8C0C00C80785 /* CassebriqueTests.swift */,
+				EC33FF71207C8C0C00C80785 /* Info.plist */,
+			);
+			path = CassebriqueTests;
+			sourceTree = "<group>";
+		};
+		EC33FF79207C8C0C00C80785 /* CassebriqueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC33FF7A207C8C0C00C80785 /* CassebriqueUITests.swift */,
+				EC33FF7C207C8C0C00C80785 /* Info.plist */,
+			);
+			path = CassebriqueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC33FF56207C8C0C00C80785 /* Cassebrique */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33FF7F207C8C0C00C80785 /* Build configuration list for PBXNativeTarget "Cassebrique" */;
+			buildPhases = (
+				EC33FF53207C8C0C00C80785 /* Sources */,
+				EC33FF54207C8C0C00C80785 /* Frameworks */,
+				EC33FF55207C8C0C00C80785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cassebrique;
+			productName = Cassebrique;
+			productReference = EC33FF57207C8C0C00C80785 /* Cassebrique.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC33FF6A207C8C0C00C80785 /* CassebriqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33FF82207C8C0C00C80785 /* Build configuration list for PBXNativeTarget "CassebriqueTests" */;
+			buildPhases = (
+				EC33FF67207C8C0C00C80785 /* Sources */,
+				EC33FF68207C8C0C00C80785 /* Frameworks */,
+				EC33FF69207C8C0C00C80785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC33FF6D207C8C0C00C80785 /* PBXTargetDependency */,
+			);
+			name = CassebriqueTests;
+			productName = CassebriqueTests;
+			productReference = EC33FF6B207C8C0C00C80785 /* CassebriqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC33FF75207C8C0C00C80785 /* CassebriqueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC33FF85207C8C0C00C80785 /* Build configuration list for PBXNativeTarget "CassebriqueUITests" */;
+			buildPhases = (
+				EC33FF72207C8C0C00C80785 /* Sources */,
+				EC33FF73207C8C0C00C80785 /* Frameworks */,
+				EC33FF74207C8C0C00C80785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC33FF78207C8C0C00C80785 /* PBXTargetDependency */,
+			);
+			name = CassebriqueUITests;
+			productName = CassebriqueUITests;
+			productReference = EC33FF76207C8C0C00C80785 /* CassebriqueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC33FF4F207C8C0C00C80785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					EC33FF56207C8C0C00C80785 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC33FF6A207C8C0C00C80785 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC33FF56207C8C0C00C80785;
+					};
+					EC33FF75207C8C0C00C80785 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC33FF56207C8C0C00C80785;
+					};
+				};
+			};
+			buildConfigurationList = EC33FF52207C8C0C00C80785 /* Build configuration list for PBXProject "Cassebrique" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC33FF4E207C8C0C00C80785;
+			productRefGroup = EC33FF58207C8C0C00C80785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC33FF56207C8C0C00C80785 /* Cassebrique */,
+				EC33FF6A207C8C0C00C80785 /* CassebriqueTests */,
+				EC33FF75207C8C0C00C80785 /* CassebriqueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC33FF55207C8C0C00C80785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33FF65207C8C0C00C80785 /* LaunchScreen.storyboard in Resources */,
+				EC33FF62207C8C0C00C80785 /* Assets.xcassets in Resources */,
+				EC33FF60207C8C0C00C80785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33FF69207C8C0C00C80785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33FF74207C8C0C00C80785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC33FF53207C8C0C00C80785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33FF5D207C8C0C00C80785 /* ViewController.swift in Sources */,
+				EC33FF5B207C8C0C00C80785 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33FF67207C8C0C00C80785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33FF70207C8C0C00C80785 /* CassebriqueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC33FF72207C8C0C00C80785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33FF7B207C8C0C00C80785 /* CassebriqueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC33FF6D207C8C0C00C80785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC33FF56207C8C0C00C80785 /* Cassebrique */;
+			targetProxy = EC33FF6C207C8C0C00C80785 /* PBXContainerItemProxy */;
+		};
+		EC33FF78207C8C0C00C80785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC33FF56207C8C0C00C80785 /* Cassebrique */;
+			targetProxy = EC33FF77207C8C0C00C80785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC33FF5E207C8C0C00C80785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC33FF5F207C8C0C00C80785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC33FF63207C8C0C00C80785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC33FF64207C8C0C00C80785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC33FF7D207C8C0C00C80785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC33FF7E207C8C0C00C80785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC33FF80207C8C0C00C80785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cassebrique/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Cassebrique;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC33FF81207C8C0C00C80785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cassebrique/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Cassebrique;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC33FF83207C8C0C00C80785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassebriqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.CassebriqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassebrique.app/Cassebrique";
+			};
+			name = Debug;
+		};
+		EC33FF84207C8C0C00C80785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassebriqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.CassebriqueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cassebrique.app/Cassebrique";
+			};
+			name = Release;
+		};
+		EC33FF86207C8C0C00C80785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassebriqueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.CassebriqueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cassebrique;
+			};
+			name = Debug;
+		};
+		EC33FF87207C8C0C00C80785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CassebriqueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.CassebriqueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cassebrique;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC33FF52207C8C0C00C80785 /* Build configuration list for PBXProject "Cassebrique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33FF7D207C8C0C00C80785 /* Debug */,
+				EC33FF7E207C8C0C00C80785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC33FF7F207C8C0C00C80785 /* Build configuration list for PBXNativeTarget "Cassebrique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33FF80207C8C0C00C80785 /* Debug */,
+				EC33FF81207C8C0C00C80785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC33FF82207C8C0C00C80785 /* Build configuration list for PBXNativeTarget "CassebriqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33FF83207C8C0C00C80785 /* Debug */,
+				EC33FF84207C8C0C00C80785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC33FF85207C8C0C00C80785 /* Build configuration list for PBXNativeTarget "CassebriqueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC33FF86207C8C0C00C80785 /* Debug */,
+				EC33FF87207C8C0C00C80785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC33FF4F207C8C0C00C80785 /* Project object */;
+}
